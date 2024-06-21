@@ -1,5 +1,4 @@
-FROM debian:buster-slim as latest
-
+FROM debian:buster-slim AS latest
 LABEL maintainer="hi@billgo.me"
 
 RUN groupadd --gid 1000 node \
